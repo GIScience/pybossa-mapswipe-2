@@ -1,0 +1,463 @@
+<div class="row">
+    <!-- Success and Error Messages for the user --> 
+    <div class="span6 offset2" style="height:50px">
+        <div id="success" class="alert alert-success" style="display:none;">
+            <a class="close">×</a>
+            Well done! Your answer was saved.
+        </div>
+        <div id="loading" class="alert alert-info" style="display:none;">
+            <a class="close">×</a>
+            Loading next task...
+        </div>
+        <div id="taskcompleted" class="alert alert-info" style="display:none;">
+            The task has been finished! Many thanks!
+        </div>
+        <div id="finish" class="alert alert-success" style="display:none;">
+            Congratulations! You have participated on all available tasks!
+            <br/>
+            <div class="alert-actions">
+                <a class="btn small" href="/">Go back</a>
+                <a class="btn small" href="/app">or take a look at other projects</a>
+            </div>
+        </div>
+        <div id="error" class="alert alert-error" style="display:none;">
+            <a class="close">×</a>
+            An error occurred! Please contact the site administrators!
+        </div>
+    </div> <!-- End Success and Error Messages for the user -->
+</div> <!-- End of Row -->
+
+<!-- see https://stackoverflow.com/questions/12121090/responsively-change-div-size-keeping-aspect-ratio -->
+<style>
+.wrapper {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.wrapper:after {
+  padding-top: 50%;
+  /* 2:1 ratio */
+  display: block;
+  content: '';
+}
+.main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+</style>
+
+<!-- Start Skeleton Row-->
+<div class="row skeleton"> 
+    <!-- Section for Tutorial -->
+    <div class="tutorial col-md-12" id="tutorial" style="display:none" align="center">
+        <div class="modal-header">
+            <h3>Tutorial</h3>
+        </div>
+        <div id="0" class="modal-body" style="display:block">
+            <p><strong>Hi!</strong> Thank you for contribution to this crowdsourcing project!</p>
+        </div>
+        <div id="1" class="modal-body" style="display:none">
+            <p>In this experiment, you will be provided with a building footprint geometry, which has been generated automatically or is derived from another dataset.</p>
+            <p>Furthermore, satellite image tiles will be displayed as a background layer.</p>
+            <p>Your task is to determine whether the building footprint correctly delineates a building also present in the satellite image.</p>
+            <img src="https://pybossa.geog.uni-heidelberg.de/uploads/user_3/images/screenshot_mapswipe_2_0.png"" style="width:80%">
+            <p><strong>Sounds difficult?</strong> Just go through the tutorial, we will show you how to do it!</p>
+        </div>
+        <div id="2" class="modal-body" style="display:none">
+          <p><strong>Your first question will be: How does a correct building footprint look like and what should you watch out for?</strong></p>
+            <p>The examples show building footprints which are <strong>correctly aligned</strong> with the buildings in the image. The buildings are <strong>not shifted</strong>.</p>
+            <p>Secondly, the shape of the buildings is correct. Most buildings will be rectangular, some might also have a circular shape.</p>
+            <p>Choose <button class="btn btn-success" style="width: 150px"><i class="icon icon-white icon-plus-sign"></i>Correct</button> for these cases</p>
+            <p></p>
+
+        </div>
+        <div id="3" class="modal-body" style="display:none">
+            <p><strong>Always check first: Does the footprint geometry really represents a building?</strong></p>
+            <p>Sometimes the proposed building geometry <strong>doesn't</strong> represents a building. Trees, cars, swimming pools or other similar looking objects are potentially detected as a building. Watch out for these objects as well.</p>
+            <p>Choose <button class="btn btn-danger" style="width: 150px"><i class="icon icon-white icon-minus-sign"></i>No Building</button> in these cases.</p>
+            <p>The examples can give you a better feeling how things which are not a building look like.</p>
+            <p></p>
+
+        </div>
+        <div id="4" class="modal-body" style="display:none">
+            <p><Strong>Please note: Building can be shifted and misaligned.</Strong></p>
+            <p>When looking at the buildings you will notice that some buildings are <strong>shifted and misaligned</strong>. However, the <strong>shape is correct</strong>.</p>
+            <p>Choose <button class="btn btn-warning" style="width: 150px"><i class="icon icon-white icon-minus-sign"></i>Alignment wrong</button> in these cases.</p>
+            <p>The examples can give you a better feeling how this looks like.</p>
+            <p></p>
+
+        </div>
+        <div id="5" class="modal-body" style="display:none">
+          <p><Strong>And of course: Building might have an incorrect shape.</Strong></p>
+            <p>When looking at the buildings you will notice that some buildings have a <strong>unnatural form</strong>. However, the <strong>alignment is correct</strong>.</p>
+            <p>Choose <button class="btn btn-warning" style="width: 150px"><i class="icon icon-white icon-minus-sign"></i>Shape wrong</button> in these cases.</p>
+            <p>The examples can give you a better feeling how this looks like.</p>
+            <p></p>
+
+        </div>
+        <div id="6" class="modal-body" style="display:none">
+            <p><Strong>Misaligned and shifted</Strong></p>
+            <p>Who would have guessed, buildings might have a <strong>unnatural form</strong> and the <strong>alignment is wrong</strong> at the same time. However, the footprint still somehow represents a building.</p>
+            <p>Choose <button class="btn btn-warning" style="width: 250px"><i class="icon icon-white icon-minus-sign"></i>Shape wrong, Alignment wrong</button> in these cases.</p>
+            <p>The examples can give you a better feeling how this looks like.</p>
+            <p></p>
+
+
+        </div>
+        <div id="7" class="modal-body" style="display:none">
+          <p><Strong>You don't know how to decide?</Strong></p>
+            <p>Sometimes it might be hard to decide, what the problem with the geometry is. Don't worry, it's a difficult task.</p>
+            <p>Choose <button class="btn btn-basic" style="width: 150px"><i class="icon icon-white icon-minus-sign"></i>Not Sure</button> in these cases.</p>
+            <p>The examples can give you a better feeling how this looks like.</p>
+            <p></p>
+
+        </div>
+        <div id="8" class="modal-body" style="display:none">
+            <p><strong>Feeling ready to start?</strong></p>
+            <p>A tutorial is linked in every task, so don`t worry if you need to refresh your knowledge in between ;-)</p>
+            <p>The images you've seen in this tutorial may not represent the range of images you'll encounter in this survey.</p>
+            <p>Use your best judgment to complete each question independent of one another.</p>
+            <p><strong>Have fun!</strong></p>
+        </div>
+    </div>
+
+    <div id="tutorial_footer" class="modal_footer" style="display:none" align="right">
+        <button id="prevBtn" href="#" onclick="showStep('prev')" class="btn btn-danger" style="display:none">Back</button>
+        <button id="nextBtn" href="#" onclick="showStep('next')" class="btn btn-success">Next</button>
+        <button id="startContrib" onclick="hideTutorial()" class="btn btn-start btn-success" style="display:none">Let's start!</button>
+        <p> </p>
+    </div>
+
+
+    <div class="col-md-12" id="question" align="center">
+	    <h1>Is this building footprint correct?</h1>
+    </div>
+    <!-- Start of Question, Photo and Submission DIV -->
+
+    <div id="content" class="col-md-8" align="right">
+        <div id="leaflet_map" class="map" style="height:400px"></div>
+        <div id="answer">
+        <!-- If the user clicks this button, the saved answer will be value="no"-->
+        <button class="btn btn-danger btn-answer" value='no_building' id='no_building' style="width: 150px">No Building</button>
+        <button class="btn btn-warning btn-answer" value='shape_wrong' id='shape_wrong' style="width: 150px">Shape wrong</button>
+        <button class="btn btn-warning btn-answer" value='alignment_wrong' id='alignment_wrong' style="width: 150px"><i class="icon icon-white icon-exclamation-sign"></i>Alignment wrong</button>
+        <button class="btn btn-warning btn-answer" value='shape_and_alignment_wrong' id='shape_and_alignment_wrong' style="width: 250px">Shape Wrong, Alignment Wrong</button>
+
+        <br>
+            <button class="btn btn-success btn-answer" value='correct' id='correct' style="width: 150px">Correct</button>
+            <!-- If the user clicks this button, the saved answer will be value="no"-->
+
+        <!-- If the user clicks this button, the saved answer will be value="no"-->
+        <button class="btn btn-basic btn-answer" value='not_sure' id='not_sure' style="width: 150px">Not Sure</button>
+    </div><!-- End of DIV for the submission buttons -->
+
+
+    </div>
+
+
+
+    <div id="feedback" class="col-md-4" style="display:none">
+        <p> </p>
+        <p>You are working on task: <span id="task-id" class="label label-warning">#</span></p>
+        <p><b>Geometries Validated:</b> <span id="done"></span></b></p>
+        <div class="progress progress-striped" style="width: 100%">
+            <div id="progress" rel="tooltip" title="#" class="progress-bar" style="width: 0%;" role="progressbar"></div>
+        </div>
+        <p><b>Rank:</b> <span id="rank"></span></b></p>
+        <button type="button" class="btn btn-info" onclick="showTutorial()">Show Tutorial</button>
+        <!-- <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#information">Show/Hide additional information</button> -->
+    </div>
+
+    <!--
+    <div class="span8.offset2, collapse col-md-12" id="information">
+        <h1>Additional information</h1>
+        <p>In case of any problems or questions please contact <a href="Herfort@stud.uni-heidelberg.de">Herfort@stud.uni-heidelberg.de</a></p>
+        <h2>Hints</h2>
+        <ul>
+            <li><b>Short-cuts</b>: You may use short-cuts in order to speed up the questionare:<br>
+                I for "Increase", N for "No changes", D for "Decrease", C for "Closure" and S for "Skip".
+			<li><b>Zooming</b>: You may zoom the map by using the mouse-wheel or using <b>+</b> and <b>-</b> keys
+            <li><b>Moving</b>: You may navigate the map by dragging it with the mouse or using the arrow keys.</li>
+        </ul>
+    </div>-->
+
+</div><!-- End of Information Row -->
+              
+
+<!-- Start of Information DIV -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<script src='https://pybossa.geog.uni-heidelberg.de/uploads/user_3/js/omnivore.js'></script>
+<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+
+<script src="https://pybossa.geog.uni-heidelberg.de/uploads/user_3/js/leaflet-bing-layer.js"></script>
+
+<script>
+// show / hide feedback div
+
+function show_feedback_div() {
+	document.getElementById('feedback_div').style.display = "block"
+	}
+
+function hide_feedback_div() {
+	document.getElementById('feedback_div').style.display = "None"
+	}
+
+
+// This section is important for the tutorial
+
+function showTutorial() {
+	var step = 0
+	document.getElementById("question").style.display="none";
+	document.getElementById("content").style.display="none";
+	document.getElementById("feedback").style.display="none";
+	document.getElementById("tutorial").style.display="block";
+	document.getElementById("tutorial_footer").style.display="block"
+};
+
+function hideTutorial() {
+	var step = 0
+	document.getElementById("question").style.display="block";
+	document.getElementById("content").style.display="block";
+	document.getElementById("feedback").style.display="block";
+	document.getElementById("tutorial").style.display="none";
+	document.getElementById("tutorial_footer").style.display="none"
+
+};
+
+var step = 0
+function showStep(action) {
+		$("#" + step).hide();
+		if (action == 'next') {
+			step = step + 1;
+		}
+		if (action == 'prev') {
+			step = step - 1;
+			$("#nextBtn").show();
+			$("#startContrib").hide()
+		}
+		if (step == 0) {
+			$("#prevBtn").hide();
+		}
+		else {
+			$("#prevBtn").show();
+		}
+		//put here the number of the last step
+		if (step == 8 ) {
+			$("#nextBtn").hide();
+			$("#startContrib").show();
+		}
+		$("#" + step).show();
+		window.scrollTo(0,0);
+	};
+
+
+
+function show_map(wkt_geom){
+    console.log("map should be shown");
+
+	console.log(wkt_geom)
+
+
+	// map on the left side
+	
+	if (typeof l_map !== 'undefined') {
+    // the variable is defined
+		l_map.remove()
+	}
+
+	l_map = L.map('leaflet_map', {
+		zoom: 18,
+		minZoom: 15,
+		maxZoom: 21,
+		crs: L.CRS.EPSG3857,
+		dragging: true
+	});
+	
+	L.control.scale().addTo(l_map);
+
+
+    var customLayer = L.geoJson(null, {
+    // http://leafletjs.com/reference.html#geojson-style
+        style: function(feature) {
+            return { fill: false };
+        }
+    });
+
+    geometry_layer = omnivore.wkt.parse(wkt_geom, null, customLayer)
+	l_map.addLayer(geometry_layer)
+
+
+
+	l_map.fitBounds(geometry_layer.getBounds())
+	// l_map.zoomOut()
+
+
+	// Bing Layer
+    var bing_key = '{bing_key}'
+    bing = L.tileLayer.bing({bingMapsKey: bing_key, maxZoom: "21"})
+    l_map.addLayer(bing)
+
+
+    //var osmUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    var osmUrl='https://korona.geog.uni-heidelberg.de/tiles/roads/x={x}&y={y}&z={z}';
+    var osmAttrib='Map data © <a target="_blank" href="https://openstreetmap.org">OpenStreetMap</a> contributors, tiles <a target="_blank" href="https://www.geog.uni-heidelberg.de/gis/index_en.html">GIScience Research Group @ Heidelberg University</a>';
+    osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});
+
+
+	var baseLayers = {
+        "Microsoft Bing": bing,
+        "OpenStreetMap": osm,
+    };
+
+    var overlays = {
+        "Geometry": geometry_layer
+    };
+
+	L.control.layers(baseLayers, overlays, {collapsed: true}).addTo(l_map)
+	
+}
+
+function loadUserProgress() {
+    pybossa.userProgress('{project_shortname}').done(function(data){
+        var pct = Math.round((data.done*100)/data.total);
+        $("#progress").css("width", pct.toString() +"%");
+        $("#progress").attr("title", pct.toString() + "% completed!");
+        $("#progress").tooltip({'placement': 'left'});
+		
+		console.log('completed: '+pct+'%')
+		
+		var completed = data.done;
+        var rankTitle = "Volunteer";
+
+        console.log(data.done)
+        if (data.done == 0){
+			showTutorial();
+		}
+		else {
+			hideTutorial()
+		}
+
+		/*
+		if (data.done == 15){
+			show_feedback_div()
+		}
+		else {
+			hide_feedback_div()
+		}*/
+
+        if(completed>30 && completed <= 100){
+            rankTitle = "MSF Intern";
+        }
+        else if(completed>100 && completed <= 200){
+            rankTitle = "New FEMA Recruit";
+        }
+        else if(completed>200 && completed <= 400){
+            rankTitle = "UN Humanitarian";
+        }
+        else if(completed>400 && completed <= 600){
+            rankTitle = "Senior UN Official";
+        }
+        else if(completed>600 && completed <= 1000){
+            rankTitle = "UN Country Director";
+        }
+        else if(completed>1000 && completed <= 2000){
+            rankTitle = "Head of UN OCHA";
+        }
+        else if(completed>2000 ){
+            rankTitle = "UN Secretary General";
+        }
+         console.log(rankTitle)
+
+         $("#rank").text(rankTitle);
+		 $("#done").text(completed+' ('+pct+'%)');
+
+		
+    });
+}
+
+pybossa.taskLoaded(function(task, deferred) {
+    console.log("task was loaded");
+    if (!$.isEmptyObject(task) ) {
+        console.log("task is not empty")
+    }
+    deferred.resolve(task);
+    console.log("taskLoaded done");
+});
+
+pybossa.presentTask(function(task, deferred) {
+    console.log("task should be presented");
+    if (!$.isEmptyObject(task) ) {
+
+        var x = document.getElementsByClassName("row");
+		x[0].style.display = "None";
+
+        loadUserProgress();
+        console.log("user progress updated");
+		// this will scroll down to the right place, so that we "hide" the heading.
+        //window.scroll(0,150);
+           
+		show_map(task.info.wkt_geom);
+        console.log("created map");
+		
+        $('#task-id').html(task.id);
+        $('.btn-answer').off('click').on('click', function(evt) {
+            var btn = $(this);
+			task.info.answer = btn.attr("value")
+            console.log("clicked button: " + answer);
+            if (typeof answer != 'undefined') {
+                pybossa.saveTask(task.id, task.info).done(function() {
+                    deferred.resolve();
+                });
+                $("#loading").fadeIn(500);
+            }
+            else {
+                $("#error").show();
+            }
+        });
+        
+        // establish short-cuts for submission buttons
+        $(document).keydown(function(e) {
+            console.log(e);
+            console.log(e.key);
+            switch (e.key) {
+                case 'i': case 'I':
+                    console.log(e.keyKode); $('#increase').click();
+                    return false; //"return false" will avoid further events
+                case 'n': case 'N':
+                    console.log(e.keyKode); $('#no_changes').click();
+                    return false; //"return false" will avoid further events
+                case 'd': case 'D':
+                    console.log(e.keyKode); $('#decrease').click();
+                    return false; //"return false" will avoid further events
+				case 'c': case 'C':
+                    console.log(e.keyKode); $('#closure').click();
+                    return false; //"return false" will avoid further events
+				case 's': case 'S':
+                    console.log(e.keyKode); $('#skip').click();
+                    return false; //"return false" will avoid further events
+            }
+            return; //using "return" other attached events will execute
+        });
+        
+        $("#loading").hide();
+    }
+    else {
+        $(".skeleton").hide();
+        $("#loading").hide();
+        $("#finish").fadeIn(500);
+    }
+  
+    console.log("presentTask done");
+});
+
+pybossa.run('{project_shortname}');
+
+
+</script>

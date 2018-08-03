@@ -1,0 +1,15 @@
+{
+  "pybossa": {
+    "endpoint": "your-pybossa-endpoint",
+    "key": "your-pybossa-api-key"
+  },
+  "imagery": {
+    "bing": "your-bing-api-key"
+    },
+  "geoserver": {
+    "baseurl": "your-geoserver-baseurl",
+    "workspace": "your-workspace",
+    "datastore": "your-datastore",
+    "namespace": "your-namespace"
+  }
+}

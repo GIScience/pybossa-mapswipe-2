@@ -1,0 +1,2507 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-07-24T15:55:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88960920",
+        "addr:city": "Heidelberg",
+        "addr:housenumber": "18",
+        "addr:postcode": "69120",
+        "addr:street": "Gundolfstraße",
+        "building": "house",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6770153,
+              49.4192103
+            ],
+            [
+              8.6770969,
+              49.4190611
+            ],
+            [
+              8.6772885,
+              49.4191055
+            ],
+            [
+              8.6772069,
+              49.4192546
+            ],
+            [
+              8.6770153,
+              49.4192103
+            ]
+          ]
+        ]
+      },
+      "id": "way/88960920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88960923",
+        "addr:city": "Heidelberg",
+        "addr:housenumber": "20",
+        "addr:postcode": "69120",
+        "addr:street": "Im Gabelacker",
+        "building": "house",
+        "building:roof": "pitched",
+        "building:roof:colour": "8a7564"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6774375,
+              49.4187012
+            ],
+            [
+              8.6774622,
+              49.4185924
+            ],
+            [
+              8.6776376,
+              49.4186093
+            ],
+            [
+              8.6776128,
+              49.4187181
+            ],
+            [
+              8.6774375,
+              49.4187012
+            ]
+          ]
+        ]
+      },
+      "id": "way/88960923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88960924",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "6/1",
+        "addr:postcode": "69120",
+        "addr:street": "Im Bäckerfeld",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6780187,
+              49.4196243
+            ],
+            [
+              8.6780707,
+              49.4194933
+            ],
+            [
+              8.6782662,
+              49.4195261
+            ],
+            [
+              8.6782143,
+              49.4196571
+            ],
+            [
+              8.6780187,
+              49.4196243
+            ]
+          ]
+        ]
+      },
+      "id": "way/88960924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88960934",
+        "addr:city": "Heidelberg",
+        "addr:housenumber": "20",
+        "addr:postcode": "69120",
+        "addr:street": "Gundolfstraße",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6768465,
+              49.4194511
+            ],
+            [
+              8.6768854,
+              49.419318
+            ],
+            [
+              8.677144,
+              49.41935
+            ],
+            [
+              8.6771051,
+              49.4194831
+            ],
+            [
+              8.6768465,
+              49.4194511
+            ]
+          ]
+        ]
+      },
+      "id": "way/88960934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88960978",
+        "addr:city": "Heidelberg",
+        "addr:housenumber": "4",
+        "addr:postcode": "69120",
+        "addr:street": "Im Bäckerfeld",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "eecfaf"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6782006,
+              49.4190075
+            ],
+            [
+              8.678246,
+              49.4188934
+            ],
+            [
+              8.6784273,
+              49.418924
+            ],
+            [
+              8.6783818,
+              49.419038
+            ],
+            [
+              8.6782006,
+              49.4190075
+            ]
+          ]
+        ]
+      },
+      "id": "way/88960978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88960985",
+        "addr:city": "Heidelberg",
+        "addr:housenumber": "3",
+        "addr:postcode": "69120",
+        "addr:street": "Im Bäckerfeld",
+        "building": "yes",
+        "building:roof": "pyramidal",
+        "building:roof:colour": "ada395"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6778596,
+              49.4189821
+            ],
+            [
+              8.6779051,
+              49.4188807
+            ],
+            [
+              8.6780651,
+              49.4189111
+            ],
+            [
+              8.6780196,
+              49.4190125
+            ],
+            [
+              8.6778596,
+              49.4189821
+            ]
+          ]
+        ]
+      },
+      "id": "way/88960985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88960989",
+        "addr:housenumber": "6",
+        "addr:street": "Im Bäckerfeld",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "eecfaf",
+        "source:addr": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6779928,
+              49.4193602
+            ],
+            [
+              8.6780447,
+              49.419261
+            ],
+            [
+              8.6782933,
+              49.419316
+            ],
+            [
+              8.6782413,
+              49.4194153
+            ],
+            [
+              8.6779928,
+              49.4193602
+            ]
+          ]
+        ]
+      },
+      "id": "way/88960989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88960991",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "12",
+        "addr:postcode": "69120",
+        "addr:street": "Im Bäckerfeld",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "eecfaf",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6774115,
+              49.419525
+            ],
+            [
+              8.6771862,
+              49.4194858
+            ],
+            [
+              8.6772349,
+              49.4193675
+            ],
+            [
+              8.6774602,
+              49.4194067
+            ],
+            [
+              8.6774115,
+              49.419525
+            ]
+          ]
+        ]
+      },
+      "id": "way/88960991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88960994",
+        "addr:city": "Heidelberg",
+        "addr:housenumber": "14",
+        "addr:postcode": "69120",
+        "addr:street": "Gundolfstraße",
+        "building": "house",
+        "building:levels": "2",
+        "building:roof": "pitched",
+        "building:roof:colour": "786257",
+        "ele": "9"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6772654,
+              49.4188659
+            ],
+            [
+              8.6773282,
+              49.4187409
+            ],
+            [
+              8.6774971,
+              49.4187768
+            ],
+            [
+              8.6774342,
+              49.4189018
+            ],
+            [
+              8.6772654,
+              49.4188659
+            ]
+          ]
+        ]
+      },
+      "id": "way/88960994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961000",
+        "addr:city": "Heidelberg",
+        "addr:housenumber": "16",
+        "addr:postcode": "69120",
+        "addr:street": "Im Gabelacker",
+        "building": "yes",
+        "building:roof": "pyramidal",
+        "building:roof:colour": "6c6668"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6779798,
+              49.418735
+            ],
+            [
+              8.678022,
+              49.418642
+            ],
+            [
+              8.6781879,
+              49.4186739
+            ],
+            [
+              8.6781457,
+              49.4187668
+            ],
+            [
+              8.6779798,
+              49.418735
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961001",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "43",
+        "addr:postcode": "69120",
+        "addr:street": "Wilckensstraße",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6784376,
+              49.4196813
+            ],
+            [
+              8.6785026,
+              49.4195482
+            ],
+            [
+              8.6787694,
+              49.4196033
+            ],
+            [
+              8.6787044,
+              49.4197364
+            ],
+            [
+              8.6784376,
+              49.4196813
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961002",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "69120",
+        "addr:street": "Im Bäckerfeld",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "eecfaf",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6776908,
+              49.4195715
+            ],
+            [
+              8.6774793,
+              49.4195396
+            ],
+            [
+              8.6775215,
+              49.4194213
+            ],
+            [
+              8.677733,
+              49.4194532
+            ],
+            [
+              8.6776908,
+              49.4195715
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961009",
+        "addr:city": "Heidelberg",
+        "addr:housenumber": "16",
+        "addr:postcode": "69120",
+        "addr:street": "Gundolfstraße",
+        "building": "house",
+        "building:roof": "pitched",
+        "building:roof:colour": "eecfaf"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6771387,
+              49.4190392
+            ],
+            [
+              8.6772015,
+              49.4189196
+            ],
+            [
+              8.6773346,
+              49.4189492
+            ],
+            [
+              8.6772719,
+              49.4190687
+            ],
+            [
+              8.6771387,
+              49.4190392
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961014",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "41",
+        "addr:postcode": "69120",
+        "addr:street": "Wilckensstraße",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6786325,
+              49.4194342
+            ],
+            [
+              8.6787036,
+              49.4192826
+            ],
+            [
+              8.6788952,
+              49.4193206
+            ],
+            [
+              8.6788241,
+              49.4194722
+            ],
+            [
+              8.6786325,
+              49.4194342
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961042",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "39",
+        "addr:postcode": "69120",
+        "addr:street": "Wilckensstraße",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6787039,
+              49.4190666
+            ],
+            [
+              8.6787559,
+              49.4189568
+            ],
+            [
+              8.6790096,
+              49.4190076
+            ],
+            [
+              8.6789577,
+              49.4191174
+            ],
+            [
+              8.6787039,
+              49.4190666
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961046",
+        "addr:housenumber": "7",
+        "addr:street": "Im Bäckerfeld",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395",
+        "source:addr": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6775803,
+              49.4193032
+            ],
+            [
+              8.6776193,
+              49.4192124
+            ],
+            [
+              8.6778284,
+              49.4192503
+            ],
+            [
+              8.6777894,
+              49.4193412
+            ],
+            [
+              8.6775803,
+              49.4193032
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961048",
+        "addr:city": "Heidelberg",
+        "addr:housenumber": "2",
+        "addr:postcode": "69120",
+        "addr:street": "Im Bäckerfeld",
+        "building": "yes",
+        "building:roof": "pitched"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6782727,
+              49.4187956
+            ],
+            [
+              8.6783246,
+              49.4186795
+            ],
+            [
+              8.6784702,
+              49.418707
+            ],
+            [
+              8.6784182,
+              49.4188232
+            ],
+            [
+              8.6782727,
+              49.4187956
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961050",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "38",
+        "addr:postcode": "69120",
+        "addr:street": "Wilckensstraße",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395",
+        "source:addr": "LGL, www.lgl-bw.de",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6790876,
+              49.4194855
+            ],
+            [
+              8.6791279,
+              49.4193843
+            ],
+            [
+              8.6792175,
+              49.4193994
+            ],
+            [
+              8.6791772,
+              49.4195006
+            ],
+            [
+              8.6790876,
+              49.4194855
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961053",
+        "addr:city": "Heidelberg",
+        "addr:housenumber": "18",
+        "addr:postcode": "69120",
+        "addr:street": "Im Gabelacker",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ac816e"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6777525,
+              49.4187012
+            ],
+            [
+              8.6777979,
+              49.4186019
+            ],
+            [
+              8.6779621,
+              49.4186337
+            ],
+            [
+              8.6779167,
+              49.418733
+            ],
+            [
+              8.6777525,
+              49.4187012
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961054",
+        "addr:housenumber": "5",
+        "addr:street": "Im Bäckerfeld",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395",
+        "source:addr": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6777752,
+              49.4191448
+            ],
+            [
+              8.6778304,
+              49.4190223
+            ],
+            [
+              8.6779887,
+              49.4190524
+            ],
+            [
+              8.6779335,
+              49.419175
+            ],
+            [
+              8.6777752,
+              49.4191448
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961056",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "69120",
+        "addr:street": "Im Bäckerfeld",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "eecfaf",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6779473,
+              49.4196053
+            ],
+            [
+              8.6777504,
+              49.4195727
+            ],
+            [
+              8.6777959,
+              49.4194565
+            ],
+            [
+              8.6779928,
+              49.4194891
+            ],
+            [
+              8.6779473,
+              49.4196053
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88961057",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "eecfaf"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6774375,
+              49.4193729
+            ],
+            [
+              8.6774564,
+              49.4193174
+            ],
+            [
+              8.6775149,
+              49.4193259
+            ],
+            [
+              8.6774959,
+              49.4193814
+            ],
+            [
+              8.6774375,
+              49.4193729
+            ]
+          ]
+        ]
+      },
+      "id": "way/88961057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91080501",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "59",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes",
+        "building:roof": "hipped",
+        "building:roof:colour": "cbcbb1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6776573,
+              49.4201916
+            ],
+            [
+              8.6774979,
+              49.4201889
+            ],
+            [
+              8.6775039,
+              49.4200419
+            ],
+            [
+              8.6776634,
+              49.4200447
+            ],
+            [
+              8.6776573,
+              49.4201916
+            ]
+          ]
+        ]
+      },
+      "id": "way/91080501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91080517",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "93",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes",
+        "building:roof:colour": "eecfaf"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6772191,
+              49.4200964
+            ],
+            [
+              8.6771207,
+              49.4201496
+            ],
+            [
+              8.6770493,
+              49.4200936
+            ],
+            [
+              8.6770076,
+              49.4201162
+            ],
+            [
+              8.6769414,
+              49.4200643
+            ],
+            [
+              8.6769764,
+              49.4200454
+            ],
+            [
+              8.676951,
+              49.4200255
+            ],
+            [
+              8.6770561,
+              49.4199687
+            ],
+            [
+              8.6772191,
+              49.4200964
+            ]
+          ]
+        ]
+      },
+      "id": "way/91080517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91080522",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "55",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.678144,
+              49.4202376
+            ],
+            [
+              8.6779939,
+              49.4201971
+            ],
+            [
+              8.6780828,
+              49.4200579
+            ],
+            [
+              8.6782328,
+              49.4200984
+            ],
+            [
+              8.678144,
+              49.4202376
+            ]
+          ]
+        ]
+      },
+      "id": "way/91080522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91080534",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "57",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6779461,
+              49.4201798
+            ],
+            [
+              8.6777971,
+              49.4201772
+            ],
+            [
+              8.6778027,
+              49.4200406
+            ],
+            [
+              8.6779517,
+              49.4200432
+            ],
+            [
+              8.6779461,
+              49.4201798
+            ]
+          ]
+        ]
+      },
+      "id": "way/91080534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91237841",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "57",
+        "addr:postcode": "69120",
+        "addr:street": "Blumenthalstraße",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "eecfaf",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6794284,
+              49.4197793
+            ],
+            [
+              8.6792865,
+              49.4197573
+            ],
+            [
+              8.679328,
+              49.4196439
+            ],
+            [
+              8.6794699,
+              49.4196659
+            ],
+            [
+              8.6794284,
+              49.4197793
+            ]
+          ]
+        ]
+      },
+      "id": "way/91237841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91237901",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "34",
+        "addr:postcode": "69120",
+        "addr:street": "Wilckensstraße",
+        "building": "yes",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.679532,
+              49.4192386
+            ],
+            [
+              8.6795056,
+              49.4193159
+            ],
+            [
+              8.6792955,
+              49.4192855
+            ],
+            [
+              8.6793219,
+              49.4192082
+            ],
+            [
+              8.679532,
+              49.4192386
+            ]
+          ]
+        ]
+      },
+      "id": "way/91237901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91237909",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "42",
+        "addr:postcode": "69120",
+        "addr:street": "Wilckensstraße",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "eecfaf",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6789891,
+              49.4196372
+            ],
+            [
+              8.679122,
+              49.4196518
+            ],
+            [
+              8.6790997,
+              49.4197376
+            ],
+            [
+              8.6789668,
+              49.4197229
+            ],
+            [
+              8.6789891,
+              49.4196372
+            ]
+          ]
+        ]
+      },
+      "id": "way/91237909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/203633987",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6789893,
+              49.419933
+            ],
+            [
+              8.6789911,
+              49.4198911
+            ],
+            [
+              8.6793406,
+              49.4198974
+            ],
+            [
+              8.6793388,
+              49.4199393
+            ],
+            [
+              8.6789893,
+              49.419933
+            ]
+          ]
+        ]
+      },
+      "id": "way/203633987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551834932",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "111",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6776207,
+              49.4197868
+            ],
+            [
+              8.6776993,
+              49.4197866
+            ],
+            [
+              8.6776999,
+              49.4199153
+            ],
+            [
+              8.6776213,
+              49.4199155
+            ],
+            [
+              8.6776207,
+              49.4197868
+            ]
+          ]
+        ]
+      },
+      "id": "way/551834932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551834933",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "109",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6775419,
+              49.4199156
+            ],
+            [
+              8.6775413,
+              49.4197869
+            ],
+            [
+              8.6776207,
+              49.4197868
+            ],
+            [
+              8.6776213,
+              49.4199155
+            ],
+            [
+              8.6775419,
+              49.4199156
+            ]
+          ]
+        ]
+      },
+      "id": "way/551834933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551834934",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "107",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6774491,
+              49.4197871
+            ],
+            [
+              8.6775413,
+              49.4197869
+            ],
+            [
+              8.6775419,
+              49.4199156
+            ],
+            [
+              8.6774496,
+              49.4199158
+            ],
+            [
+              8.6774495,
+              49.419876
+            ],
+            [
+              8.6774491,
+              49.4197871
+            ]
+          ]
+        ]
+      },
+      "id": "way/551834934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551834935",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "95",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6770385,
+              49.4198742
+            ],
+            [
+              8.6769396,
+              49.4198737
+            ],
+            [
+              8.6769409,
+              49.4197472
+            ],
+            [
+              8.6770398,
+              49.4197477
+            ],
+            [
+              8.6770385,
+              49.4198742
+            ]
+          ]
+        ]
+      },
+      "id": "way/551834935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551834936",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "97",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6771203,
+              49.419748
+            ],
+            [
+              8.677119,
+              49.4198745
+            ],
+            [
+              8.6770385,
+              49.4198742
+            ],
+            [
+              8.6770398,
+              49.4197477
+            ],
+            [
+              8.6771203,
+              49.419748
+            ]
+          ]
+        ]
+      },
+      "id": "way/551834936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551834937",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "99",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6771998,
+              49.4197484
+            ],
+            [
+              8.6771984,
+              49.4198749
+            ],
+            [
+              8.677119,
+              49.4198745
+            ],
+            [
+              8.6771203,
+              49.419748
+            ],
+            [
+              8.6771998,
+              49.4197484
+            ]
+          ]
+        ]
+      },
+      "id": "way/551834937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551834938",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "101",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6772814,
+              49.4198753
+            ],
+            [
+              8.6771984,
+              49.4198749
+            ],
+            [
+              8.6771998,
+              49.4197484
+            ],
+            [
+              8.6772827,
+              49.4197488
+            ],
+            [
+              8.6772814,
+              49.4198753
+            ]
+          ]
+        ]
+      },
+      "id": "way/551834938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551834939",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "103",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6773551,
+              49.4197491
+            ],
+            [
+              8.6773537,
+              49.4198756
+            ],
+            [
+              8.6772814,
+              49.4198753
+            ],
+            [
+              8.6772827,
+              49.4197488
+            ],
+            [
+              8.6773551,
+              49.4197491
+            ]
+          ]
+        ]
+      },
+      "id": "way/551834939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551834940",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "105",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6774491,
+              49.4197495
+            ],
+            [
+              8.6774491,
+              49.4197871
+            ],
+            [
+              8.6774495,
+              49.419876
+            ],
+            [
+              8.6773537,
+              49.4198756
+            ],
+            [
+              8.6773551,
+              49.4197491
+            ],
+            [
+              8.6774491,
+              49.4197495
+            ]
+          ]
+        ]
+      },
+      "id": "way/551834940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551835309",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "113",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6779122,
+              49.4198172
+            ],
+            [
+              8.6779095,
+              49.4199114
+            ],
+            [
+              8.6778282,
+              49.4199104
+            ],
+            [
+              8.6778308,
+              49.4198162
+            ],
+            [
+              8.6779122,
+              49.4198172
+            ]
+          ]
+        ]
+      },
+      "id": "way/551835309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551835310",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "115",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6779886,
+              49.4199123
+            ],
+            [
+              8.6779095,
+              49.4199114
+            ],
+            [
+              8.6779122,
+              49.4198172
+            ],
+            [
+              8.6779913,
+              49.4198181
+            ],
+            [
+              8.6779886,
+              49.4199123
+            ]
+          ]
+        ]
+      },
+      "id": "way/551835310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551835311",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "117",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.678063,
+              49.4199132
+            ],
+            [
+              8.6779886,
+              49.4199123
+            ],
+            [
+              8.6779913,
+              49.4198181
+            ],
+            [
+              8.6780657,
+              49.419819
+            ],
+            [
+              8.678063,
+              49.4199132
+            ]
+          ]
+        ]
+      },
+      "id": "way/551835311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551835312",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "119",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6781372,
+              49.4198199
+            ],
+            [
+              8.6781345,
+              49.4199141
+            ],
+            [
+              8.678063,
+              49.4199132
+            ],
+            [
+              8.6780657,
+              49.419819
+            ],
+            [
+              8.6781372,
+              49.4198199
+            ]
+          ]
+        ]
+      },
+      "id": "way/551835312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551835313",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "121",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6782081,
+              49.419915
+            ],
+            [
+              8.6781345,
+              49.4199141
+            ],
+            [
+              8.6781372,
+              49.4198199
+            ],
+            [
+              8.6782107,
+              49.4198208
+            ],
+            [
+              8.6782081,
+              49.419915
+            ]
+          ]
+        ]
+      },
+      "id": "way/551835313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551835314",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "123",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6782806,
+              49.4198216
+            ],
+            [
+              8.678278,
+              49.4199158
+            ],
+            [
+              8.6782081,
+              49.419915
+            ],
+            [
+              8.6782107,
+              49.4198208
+            ],
+            [
+              8.6782806,
+              49.4198216
+            ]
+          ]
+        ]
+      },
+      "id": "way/551835314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551835315",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "125",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6783771,
+              49.419917
+            ],
+            [
+              8.678278,
+              49.4199158
+            ],
+            [
+              8.6782806,
+              49.4198216
+            ],
+            [
+              8.6783798,
+              49.4198228
+            ],
+            [
+              8.6783771,
+              49.419917
+            ]
+          ]
+        ]
+      },
+      "id": "way/551835315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551836355",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "39/3",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6787834,
+              49.4199485
+            ],
+            [
+              8.6787856,
+              49.4198718
+            ],
+            [
+              8.6788765,
+              49.4198729
+            ],
+            [
+              8.6788743,
+              49.4199496
+            ],
+            [
+              8.6787834,
+              49.4199485
+            ]
+          ]
+        ]
+      },
+      "id": "way/551836355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551836356",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "39/2",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6787092,
+              49.4198709
+            ],
+            [
+              8.6787856,
+              49.4198718
+            ],
+            [
+              8.6787834,
+              49.4199485
+            ],
+            [
+              8.678707,
+              49.4199475
+            ],
+            [
+              8.6787092,
+              49.4198709
+            ]
+          ]
+        ]
+      },
+      "id": "way/551836356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551836357",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "39/1",
+        "addr:postcode": "69121",
+        "addr:street": "Langgewann",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6786252,
+              49.4198699
+            ],
+            [
+              8.6787092,
+              49.4198709
+            ],
+            [
+              8.678707,
+              49.4199475
+            ],
+            [
+              8.678623,
+              49.4199465
+            ],
+            [
+              8.6786252,
+              49.4198699
+            ]
+          ]
+        ]
+      },
+      "id": "way/551836357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/560036002",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "40",
+        "addr:postcode": "69120",
+        "addr:street": "Wilckensstraße",
+        "building": "yes",
+        "building:roof": "pitched",
+        "building:roof:colour": "ada395",
+        "source:address": "LGL, www.lgl-bw.de"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6791772,
+              49.4195006
+            ],
+            [
+              8.6792175,
+              49.4193994
+            ],
+            [
+              8.6793072,
+              49.4194145
+            ],
+            [
+              8.6792668,
+              49.4195157
+            ],
+            [
+              8.6791772,
+              49.4195006
+            ]
+          ]
+        ]
+      },
+      "id": "way/560036002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94551367",
+        "addr:city": "Heidelberg",
+        "addr:country": "DE",
+        "addr:housenumber": "48",
+        "addr:postcode": "69120",
+        "addr:street": "Berliner Straße",
+        "building": "university",
+        "building:obm": "153",
+        "buildingpart": "shell",
+        "height": "4",
+        "level": "0",
+        "level:usage": "academic",
+        "name": "Geographisches Institut BST 48",
+        "website": "http://www.geog.uni-heidelberg.de/",
+        "wheelchair": "no",
+        "@relations": [
+          {
+            "role": "outer",
+            "rel": 1370729,
+            "reltags": {
+              "addr:city": "Heidelberg",
+              "addr:country": "DE",
+              "addr:housenumber": "48",
+              "addr:postcode": "69120",
+              "addr:street": "Berliner Straße",
+              "building": "yes",
+              "building:architecture": "modern",
+              "building:buildyear": "1980",
+              "building:cladding": "concrete",
+              "building:condition": "good",
+              "building:facade:colour": "grey",
+              "building:levels": "4",
+              "building:max_level": "2",
+              "building:min_level": "1",
+              "building:roof:colour": "black",
+              "building:roof:material": "cardboard",
+              "building:roof:shape": "flat",
+              "height": "14.5",
+              "name": "Geographisches Institut",
+              "type": "building"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.6768734,
+              49.4188222
+            ],
+            [
+              8.6768733,
+              49.418848
+            ],
+            [
+              8.6768733,
+              49.4188573
+            ],
+            [
+              8.6768732,
+              49.4188668
+            ],
+            [
+              8.6768732,
+              49.4188762
+            ],
+            [
+              8.6768732,
+              49.4188856
+            ],
+            [
+              8.6768732,
+              49.4188951
+            ],
+            [
+              8.6768731,
+              49.4189045
+            ],
+            [
+              8.6768731,
+              49.418914
+            ],
+            [
+              8.676873,
+              49.4189396
+            ],
+            [
+              8.6768201,
+              49.4189396
+            ],
+            [
+              8.6768059,
+              49.4189396
+            ],
+            [
+              8.6767913,
+              49.4189396
+            ],
+            [
+              8.676777,
+              49.4189396
+            ],
+            [
+              8.6767624,
+              49.4189396
+            ],
+            [
+              8.6767481,
+              49.4189396
+            ],
+            [
+              8.6767336,
+              49.4189396
+            ],
+            [
+              8.6767189,
+              49.4189396
+            ],
+            [
+              8.6767045,
+              49.4189396
+            ],
+            [
+              8.67669,
+              49.4189396
+            ],
+            [
+              8.6766756,
+              49.4189396
+            ],
+            [
+              8.6766609,
+              49.4189396
+            ],
+            [
+              8.6766151,
+              49.4189396
+            ],
+            [
+              8.6766151,
+              49.4189138
+            ],
+            [
+              8.6766151,
+              49.4189046
+            ],
+            [
+              8.6766151,
+              49.4188951
+            ],
+            [
+              8.6766151,
+              49.4188853
+            ],
+            [
+              8.6766151,
+              49.418876
+            ],
+            [
+              8.6766151,
+              49.4188666
+            ],
+            [
+              8.6766151,
+              49.4188574
+            ],
+            [
+              8.6766151,
+              49.4188483
+            ],
+            [
+              8.6766151,
+              49.4188219
+            ],
+            [
+              8.6766598,
+              49.4188219
+            ],
+            [
+              8.6767078,
+              49.4188219
+            ],
+            [
+              8.6767078,
+              49.418813
+            ],
+            [
+              8.6767078,
+              49.4187992
+            ],
+            [
+              8.6767078,
+              49.4187563
+            ],
+            [
+              8.6767078,
+              49.4187334
+            ],
+            [
+              8.6767078,
+              49.4187131
+            ],
+            [
+              8.6767078,
+              49.4186865
+            ],
+            [
+              8.6767078,
+              49.4186488
+            ],
+            [
+              8.6767079,
+              49.4186212
+            ],
+            [
+              8.6767079,
+              49.418588
+            ],
+            [
+              8.6767079,
+              49.4185596
+            ],
+            [
+              8.6767079,
+              49.4185324
+            ],
+            [
+              8.6767079,
+              49.4185175
+            ],
+            [
+              8.6767799,
+              49.4185175
+            ],
+            [
+              8.676853,
+              49.4185175
+            ],
+            [
+              8.6768531,
+              49.4185432
+            ],
+            [
+              8.6768723,
+              49.4185432
+            ],
+            [
+              8.6768925,
+              49.4185432
+            ],
+            [
+              8.6768925,
+              49.4184974
+            ],
+            [
+              8.6769686,
+              49.4184974
+            ],
+            [
+              8.6770704,
+              49.4184974
+            ],
+            [
+              8.677115,
+              49.4184974
+            ],
+            [
+              8.6771602,
+              49.4184974
+            ],
+            [
+              8.6771867,
+              49.4184974
+            ],
+            [
+              8.6771858,
+              49.4186033
+            ],
+            [
+              8.6771562,
+              49.4186033
+            ],
+            [
+              8.6771133,
+              49.4186033
+            ],
+            [
+              8.6770689,
+              49.4186033
+            ],
+            [
+              8.6770149,
+              49.4186033
+            ],
+            [
+              8.6769617,
+              49.4186033
+            ],
+            [
+              8.6769156,
+              49.4186033
+            ],
+            [
+              8.676892,
+              49.4186033
+            ],
+            [
+              8.6768919,
+              49.4185575
+            ],
+            [
+              8.6768723,
+              49.4185575
+            ],
+            [
+              8.6768526,
+              49.4185575
+            ],
+            [
+              8.6768526,
+              49.4185721
+            ],
+            [
+              8.6768526,
+              49.4185977
+            ],
+            [
+              8.6768526,
+              49.4186236
+            ],
+            [
+              8.6768526,
+              49.418643
+            ],
+            [
+              8.6768525,
+              49.4186623
+            ],
+            [
+              8.6768525,
+              49.4186793
+            ],
+            [
+              8.6768525,
+              49.4186981
+            ],
+            [
+              8.6768525,
+              49.4187138
+            ],
+            [
+              8.6768525,
+              49.4187375
+            ],
+            [
+              8.6768524,
+              49.4187566
+            ],
+            [
+              8.6768524,
+              49.4187743
+            ],
+            [
+              8.6768524,
+              49.4187914
+            ],
+            [
+              8.6768524,
+              49.4188075
+            ],
+            [
+              8.6768524,
+              49.4188222
+            ],
+            [
+              8.6768734,
+              49.4188222
+            ]
+          ]
+        ]
+      },
+      "id": "way/94551367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1098227410",
+        "@relations": [
+          {
+            "role": "entrance",
+            "rel": 1370729,
+            "reltags": {
+              "addr:city": "Heidelberg",
+              "addr:country": "DE",
+              "addr:housenumber": "48",
+              "addr:postcode": "69120",
+              "addr:street": "Berliner Straße",
+              "building": "yes",
+              "building:architecture": "modern",
+              "building:buildyear": "1980",
+              "building:cladding": "concrete",
+              "building:condition": "good",
+              "building:facade:colour": "grey",
+              "building:levels": "4",
+              "building:max_level": "2",
+              "building:min_level": "1",
+              "building:roof:colour": "black",
+              "building:roof:material": "cardboard",
+              "building:roof:shape": "flat",
+              "height": "14.5",
+              "name": "Geographisches Institut",
+              "type": "building"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6767078,
+          49.4186485
+        ]
+      },
+      "id": "node/1098227410"
+    }
+  ]
+}
